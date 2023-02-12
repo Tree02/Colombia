@@ -1,0 +1,168 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    display: flex;
+    font-size: 3.5vh;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.general{
+    display: flex;
+    height: 80vh;
+}
+
+.principal{
+    display: flex;
+    background-color: rgba(153, 153, 153, 0.2);
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal .a{
+    margin: 1.5rem 0;
+    display: flex;
+    height: 18rem;
+    width: 25rem;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.principal .b{
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    height: 8rem;
+    width: 25rem;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.secundario{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secundario .a{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    background-color: rgb(168, 168, 168);
+    align-items: center;
+    justify-content: center;
+}
+
+.grande{
+    overflow: hidden;
+}
+
+.contenedor{
+    margin-left: 0%;
+}
+
+.scrollingGrapper {
+    white-space: nowrap;
+    width: 95%;
+    height: 60%;
+    margin: 1.5rem 0;
+}
+
+.scrollingGrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollingGrapper .card {
+    display: inline-block;
+    width: 11rem;
+    height: 13rem;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.scrollingGrapper button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secundario .b{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: rgb(92, 92, 92);
+    justify-content: center;
+    align-items: center;
+}
+
+.tercero{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(74, 74, 74);
+    flex-direction: column;
+    align-items: center;
+}
+
+.tercero .a{
+    color: white;
+    display: flex;
+    margin: 1.8rem 0;
+    width: 60vw;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.tercero .a h1{
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}
+
+.tercero .a .descripcion{
+    width: 80%;
+    height: 50%;
+    margin-left: 20%;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1{
+    margin: 0;
+}
+
+footer .contacts{
+    display: flex;
+    flex-direction: row;
+}
